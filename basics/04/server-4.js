@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
-    const readStream = fs.createReadStream(__dirname + "/index.html", "utf8");
+    const readStream = fs.createReadStream(__dirname + "/index.html", "utf8"); // index.html 서빙
     readStream.pipe(res);
 });
 
