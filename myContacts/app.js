@@ -1,7 +1,11 @@
+require("dotenv").config(); // ✅ 환경 변수 로드 (가장 위에 추가)
 const express = require("express");
-const app = express();
+const dbConnect = require("./config/dbConnect");
 
+const app = express();
 const port = 3000;
+
+dbConnect(); // ✅ MongoDB 연결
 
 // /로 요청했을 때 라우트 코드 
 app.get("/", (req, res) => {
