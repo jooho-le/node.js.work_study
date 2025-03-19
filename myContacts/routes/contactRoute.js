@@ -4,9 +4,7 @@ const router = express.Router();
 // 모든 연락처 가져오기, 새 연락처 추가하기 
 router
     .route("/")
-    .get((req, res) => {
-        res.status(200).send("Contacts Page");
-    })
+    
     .post((req, res) => {
         res.status(200).send("Create Contacts");
     });
