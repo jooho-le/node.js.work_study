@@ -1,8 +1,26 @@
 {
   "dependencies": {
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "express-async-handler": "^1.2.0",
     "mongoose": "^8.9.5"
-  }
+  },
+  "name": "node.js.work",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooho-le/node.js.work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jooho-le/node.js.work/issues"
+  },
+  "homepage": "https://github.com/jooho-le/node.js.work#readme",
+  "description": ""
 }
